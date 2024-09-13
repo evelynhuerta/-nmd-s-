@@ -1,0 +1,65 @@
+[
+    {
+        "purchaseId": 0,
+        "concertId": "0",
+        "seats": [
+            "A1"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718586408896
+    },
+    {
+        "purchaseId": 1,
+        "concertId": "0",
+        "seats": [
+            "A2"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718586408910
+    },
+    {
+        "purchaseId": 2,
+        "concertId": "1",
+        "seats": [
+            "A9"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718586408917
+    },
+    {
+        "purchaseId": 3,
+        "concertId": "1",
+        "seats": [
+            "A1"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1718586408921
+    },
+    {
+        "purchaseId": 4,
+        "concertId": "0",
+        "seats": [
+            "A3"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1726194226976
+    },
+    {
+        "purchaseId": 5,
+        "concertId": "0",
+        "seats": [
+            "A4"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1726194226989
+    },
+    {
+        "purchaseId": 6,
+        "concertId": "6",
+        "seats": [
+            "C5"
+        ],
+        "paymentMethod": "cash",
+        "timestamp": 1726194226995
+    }
+]

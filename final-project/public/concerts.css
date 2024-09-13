@@ -1,0 +1,137 @@
+/*
+ * Author: Evelyn Huerta
+ * CS 132 Spring 2024
+ * Date: June 14, 2024
+ *
+ * This is the concerts.css page for my Sonic Seats webpage.
+ * It is used by my concerts.html page to display the concerts in an organized manner.
+ */
+
+.concert-container, #concerts, #genre-option, #artist-option, #filter, .concert-info,#info, 
+#product-view, #product-container, #product, #ticket, #seat-viewer, #seat-selector, #venue-section, 
+#seats, .seat, #seat-section {
+  display: flex;
+}
+
+#filter {
+  justify-content: space-around;
+}
+
+.concert-container,#product-view, #seats, .concert-info, #info, #product, #seat-viewer, #seat-section {
+  flex-direction: column;
+}
+
+#filter, #product-container, #ticket, #seat-selector {
+  flex-direction: row;
+}
+
+#ticket, #product-view, #seat-selector  {
+  justify-content: space-between;
+}
+
+#product-container, #seat-viewer, #concerts {
+  justify-content: space-evenly;
+}
+
+#ticket, #back-btn {
+  margin-bottom: 40px;
+}
+
+#product {
+  margin-right: 25px;
+}
+
+#seat-viewer {
+  margin-left: 25px;
+}
+
+#filter, #seat-selector, .seat, #product-view, #genre-option, #artist-option {
+  align-items: center;
+}
+
+#filter > div, button {
+  font-size: 18pt;
+}
+
+#filter select{
+  color: black;
+}
+
+#concerts {
+  flex-wrap: wrap;
+}
+
+.seat p {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.seat, #seats {
+  border: 2px solid black; 
+}
+
+.concert-container, .seat {
+  background-color: white;
+}
+
+.concert-container {
+  padding: 5px;
+  border: 3px solid black;
+  margin: 5px;
+}
+
+.concert-container, a, select, button {
+  cursor: pointer;
+}
+
+.concert-container img {
+  width: 320px;
+}
+
+.concert-container p, p, h3 {
+  margin: 0;
+}
+
+.hidden, #all-product-view.hidden, #product-view.hidden {
+  display: none;
+}
+
+button {
+  width: 100px;
+  margin: 10px;
+  font-family: Patrick Hand, 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-size: 22pt;
+}
+
+#genre-option select, #artist-option select{
+  height: 20px;
+  margin-left: 5px;
+}
+
+#ticket-img {
+  width: 200px;
+}
+
+#product > img {
+  width: 600px;
+}
+
+#venue-section {
+  width: 75%;
+}
+
+#venue-section, .seat p  {
+  font-size: 16pt;
+}
+
+.add-to-cart {
+  font-size: 12pt;
+}
+
+button, #venue-section {
+  height: 40px;
+}
+

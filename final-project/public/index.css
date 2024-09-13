@@ -1,0 +1,16 @@
+/*
+ * Author: Evelyn Huerta
+ * CS 132 Spring 2024
+ * Date: June 14, 2024
+ *
+ * This is the concerts.css page for Sonic Seats a concert selling website.
+ * It is used by my concerts.html page to display the concerts in an organized manner.
+ */
+
+h2 {
+  font-size: 32pt;
+}
+
+img {
+  width: 1080;
+}

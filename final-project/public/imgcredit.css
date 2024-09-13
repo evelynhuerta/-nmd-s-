@@ -1,0 +1,26 @@
+/*
+ * Author: Evelyn Huerta
+ * CS 132 Spring 2024
+ * Date: June 14, 2024
+ *
+ * This is the imgcredit.css page for the image credits page of the Sonic Seats Website
+ * It is used to display the images and the credits in an organized manner.
+ */
+
+h3, li {
+  font-size: 18pt;
+}
+
+p {
+  font-size: 14pt;
+}
+
+img{
+  width: 400px;
+}
+
+
+
+
+
+

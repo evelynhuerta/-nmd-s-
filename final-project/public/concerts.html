@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    Author: Evelyn Huerta
+    CS 132 Spring 2024
+    Final Project
+    This is the HTML file that has all the concerts and also has the product view for each concert.
+ -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonic Seats</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="concerts.css">
+  <script src="utils.js"></script>
+  <script defer src="concerts.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>SONIC SEATS <img id="logo" src="images/logo.png" alt="sonic-seats-logo"> </h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="concerts.html">Concerts</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="cart.html">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="message-area"></div>
+    <section id="all-product-view">
+      <h2>CONCERTS</h2>
+      <div id="filter">
+        <div id="genre-option">
+          <p>Genre: </p>
+          <select>
+            <option value="none" selected> -------------- </option>
+          </select>
+        </div>
+        <div id="artist-option">
+          <p>Artist: </p>
+          <select>
+            <option value="none" selected> -------------- </option>
+          </select>
+        </div>
+        <button id="filter-btn">Filter</button>
+      </div>
+      <div id="concerts">
+      </div>
+    </section>
+
+    <section id="product-view" class="hidden">
+      <button id="back-btn">Back</button>
+      <div id="product-container">
+        <div id="product">
+          <div id="ticket">
+            <div id="info">
+              <h3>artist</h3>
+              <p>time</p>
+              <p>venue</p>
+            </div>
+            <img id="ticket-img" src="images/olivia-rodrigo.png" alt="olivia-rodrigo">
+          </div>
+          <img src="images/venue-map.png" alt="venue-map">
+        </div>
+        <div id="seat-viewer">
+          <div id="seat-selector">
+            <select id="venue-section">
+              <option value="none" selected> Section </option>
+              <option value="A"> Section A </option>
+              <option value="B"> Section B </option>
+              <option value="C"> Section C </option>
+              <option value="D"> Section D </option>
+              <option value="E"> Section E </option>
+            </select>
+            <button id="search-btn"> Search </button>
+          </div>
+          <div id="seat-section">
+            <h3>Seats Available</h3>
+            <div id="seats">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  </main>
+  <footer>Evelyn Huerta | Contact Page Inspired By CS 132 Lecture 18 | <a id="credit" href="imgcredit.html"> Image Credits</a></footer>
+</body>
+
+</html>

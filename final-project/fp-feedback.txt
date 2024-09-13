@@ -1,0 +1,40 @@
+Please fill out the following and submit with your Final Project submission 
+(added to help us know what to focus on when grading, what was intentionally incomplete, etc.):
+
+1. What is your estimated grade for the Final Project (roughly of 100)? For partner projects,
+   do you think the workload distribution was fair?
+
+   I think that my estimated grade for the Final Project is approximately 90/100. I worked very hard 
+   on it but I also know that I most likely implemented something inefficiently. I think that workload
+   was fair, we had different strengths but I think we helped each other out in a way that led to an
+   equal distribution of work.
+
+2. What is your estimated grade for the course (letter grade)? You can support your
+   estimate with examples of demonstrated engagement in the course material, strengths
+   (and weaknesses) over the term, and growth throughout the material (some assignment
+   grading feedback was delayed, but we would like to know what resources you used to
+   iterate on the material, such as lectures, OH, Discord, etc.)
+
+  I think that my estimated grade for this class is an A. I performed well on the homeworks so far and
+  have submitted some CPs that I am proud of. I have attended lectures to the best of my ability and 
+  watched lecture videos or read through slides when I could not attend lecture. I also attended OH 
+  whenever I felt stuck or just did not know where/how to start. I also tried to maximize the benefit 
+  of Discord by asking questions when I had them. I think that overall I have tried my best to create
+  projects that I am very proud of, even if sometimes I struggled to get started on them.
+
+3. To what extent would you like feedback in your project (e.g. thorough, particular areas of the
+   project, or just a grade)?
+
+  I think that I would want a bit more feedback on the UI of my website. I put a lo of thought 
+  into the design and usability of it and would like to know if the grader had any ideas of ways I 
+  could have presented the content in a better/clearer way.
+
+4. Anything else you would like El to know when grading?
+I know that one of my function in cart.js is extremely long and I did try to break it up but I could 
+not get it to work the same way so I decided to just leave it. But I just wanted to let you kow that
+I did try to fix that.
+
+5. Are you open to sharing your project/reflection for future terms? If so, would you
+   like named credit or anonymous?
+I would be open to sharing my project/reflection for future terms and both can be either anonymous 
+or name credited. 

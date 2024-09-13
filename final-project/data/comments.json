@@ -1,0 +1,16 @@
+[
+    {
+        "category": "comment",
+        "name": "Jimmy Neutron",
+        "phone": "987-456-7865",
+        "email": "jimmy@gmail.com",
+        "description": "great store!"
+    },
+    {
+        "category": "comment",
+        "name": "Evelyn",
+        "phone": "999-999-9999",
+        "email": "jimmy@gmail.com",
+        "description": "I had so much fun at the concert!"
+    }
+]

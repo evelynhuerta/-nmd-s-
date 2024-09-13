@@ -1,0 +1,46 @@
+/*
+ * Author: Evelyn Huerta
+ * CS 132 Spring 2024
+ * Date: June 14, 2024
+ *
+ * This is the cart.css page for my Sonic Seats webpage.
+ * It is used by my cart.html page to display the concerts in the user cart in an organized manner.
+ */
+
+#cart-section, .ticket, .concert-info {
+  display: flex;
+}
+
+.concert-info, .ticket{
+  flex-direction: column;
+}
+
+#cart-section {
+  flex-wrap: wrap;
+}
+
+.ticket {
+  background-color: white;
+  padding: 5px;
+  border: 3px solid black;
+  margin: 5px;
+}
+
+.ticket p, .ticket h3 {
+  margin: 0;
+}
+
+.ticket img, .ticket{
+  width: 320px;
+}
+
+h3 {
+  font-size: 22pt;
+}
+
+button {
+  width: 100px;
+  margin: 10px;
+  cursor: pointer;
+  align-self: center;
+}

@@ -1,0 +1,27 @@
+/*
+ * Author: Evelyn Huerta
+ * CS 132 Spring 2024
+ * Date: June 14, 2024
+ *
+ * This is the faq.css page for the FAQ page of the Sonic Seats Website
+ * It is used to display FAQs in an organized manner
+ */
+
+#faq-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.qa p {
+  font-size: 16pt;
+  margin-left: 10px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.qa {
+  border: 5px solid black; 
+  margin-bottom: 10px;
+}
+
+

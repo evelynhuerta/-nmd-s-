@@ -1,0 +1,38 @@
+/*
+ * Author: Evelyn Huerta
+ * CS 132 Spring 2024
+ * Date: June 14, 2024
+ *
+ * This is the contact.css page for the contact page of the Sonic Seats Website
+ * It creates an easy to use and understand contact form.
+ */
+
+main, #contact-section, #contact-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#contact-section {
+  border: 5px solid black; 
+  margin-bottom: 10px;
+  width: 50%;
+  background-color: #f2f3f5;
+} 
+
+#contact-form, button {
+  font-size: 16pt;
+}
+
+#contact-form p {
+  margin: 2px;
+}
+
+button {
+  margin: 15px;
+  height: 40px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+
